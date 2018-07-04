@@ -3,11 +3,20 @@
   "version": "1.0.0",
   "description": "questions for the interview",
   "main": "index.html",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build"
   },
+  "dependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-sass": "^4.0.1",
+    "gulp-sequence": "^1.0.0",
+    "relaxedjs": "^0.1.8",
+    "sqlite3": "^4.0.1"
+  },
+  "devDependencies": {},
   "author": "atvorch",
   "license": "ISC"
 }
