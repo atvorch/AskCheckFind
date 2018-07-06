@@ -1,0 +1,16 @@
+{
+  "name": "quiz-server",
+  "version": "1.0.0",
+  "description": "quiz-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "atvorch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "sqlite3": "^4.0.1"
+  }
+}
